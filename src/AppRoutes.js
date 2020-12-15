@@ -8,7 +8,7 @@ const AppRoutes = () => {
 		<Switch>
 			{Routers.map((route, index) => {
 				return (
-					<Route path={route.path} exact={route.exact}>
+					<Route key={index} path={route.path} exact={route.exact}>
 						<route.component />
 					</Route>
 				);
@@ -17,4 +17,4 @@ const AppRoutes = () => {
 	);
 };
 
-export default AppRoutes;
+export { AppRoutes };
