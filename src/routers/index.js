@@ -42,13 +42,13 @@ const Routers = [
 	},
 	{
 		exact: true,
-		path: PATHS.USER_DETAIL,
-		component: UserDetail,
+		path: PATHS.USER_PROFILE,
+		component: UserProfile,
 	},
 	{
 		exact: true,
-		path: PATHS.USER_PROFILE,
-		component: UserProfile,
+		path: PATHS.USER_DETAIL,
+		component: UserDetail,
 	},
 ];
 

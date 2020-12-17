@@ -6,7 +6,7 @@ const PATHS = {
 	POST_CREATE: "/post/create",
 	POST_DETAIL: "/post/:post_id",
 	USER_DETAIL: "/user/:user_id",
-	USER_PROFILE: "/user/:user_id/profile",
+	USER_PROFILE: "/user/profile",
 };
 
 export default PATHS;
